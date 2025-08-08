@@ -1,6 +1,6 @@
 # Experimental Material for "CSoftmax: A Contextual Softmax Operator Incorporating Row and Column Priorities"
 
-This flder contains the experimental validation of all theorems for the purposed C-Softmax operator in the paper.
+This folder contains experimental verification of all theorems defined for the contextual softmax (C-Softmax) operator.
 
 ## Files
 - `c_softmax_numpy_final_ipynb - Colab.pdf`: Results and visualizations of all tests.
