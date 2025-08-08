@@ -1,4 +1,4 @@
-# Supplementary Material for "CSoftmax: A Contextual Softmax Operator Incorporating Row and Column Priorities"
+# Experimental Material for "CSoftmax: A Contextual Softmax Operator Incorporating Row and Column Priorities"
 
 This flder contains the experimental validation of all theorems for the purposed C-Softmax operator in the paper.
 
