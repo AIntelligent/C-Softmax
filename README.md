@@ -3,8 +3,8 @@
 This flder contains the experimental validation of all theorems for the purposed C-Softmax operator in the paper.
 
 ## Files
-- `C-Softmax_Validation_Report.pdf`: Results and visualizations of all tests.
-- `C-Softmax_Dogrulama.ipynb`: Interactive Jupyter Notebook (compatible with Google Colab).
+- `c_softmax_numpy_final_Report.pdf`: Results and visualizations of all tests.
+- `c_softmax_numpy_final.ipynb`: Interactive Jupyter Notebook (compatible with Google Colab).
 - `c_softmax_numpy_final.py`: Standalone Python implementation.
 - `README.md`: This file.
 
