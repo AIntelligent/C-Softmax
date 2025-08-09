@@ -6,10 +6,10 @@ This folder contains experimental verification of all theorems defined for the c
 - `c_softmax_numpy_final_ipynb - Colab.pdf`: Results and visualizations of all tests.
 - `c_softmax_numpy_final.ipynb`: Interactive Jupyter Notebook (compatible with Google Colab).
 - `c_softmax_numpy_final.py`: Standalone Python implementation.
-- `fig1_limit_behavior.png`: Limit behaviors graphical report.
-- `fig2_alpha_learning.png`: Alpha learning graphical report.
-- `fig3_entropy_temp.png`: Entropy-Temperature relation graphical report.
-- `full_outputs.txt`: All outputs here.
+- `fig1_limit_behavior.png`: Limit behaviors graph.
+- `fig2_alpha_learning.png`: Alpha learning graph.
+- `fig3_entropy_temp.png`: Entropy-Temperature interaction graph.
+- `full_outputs.txt`: All test results are here.
 
 [Get the latest release](https://github.com/AIntelligent/C-Softmax/releases/latest)
 
