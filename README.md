@@ -16,3 +16,6 @@ This folder contains experimental verification of all theorems defined for the c
 ```bash
 pip install numpy matplotlib
 python c_softmax_numpy_final.py
+
+## Get The Latest Version
+[The latest release](C-Softmax/releases/tag/experimental)
