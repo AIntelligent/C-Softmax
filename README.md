@@ -12,10 +12,9 @@ This folder contains experimental verification of all theorems defined for the c
 - `full_outputs.txt`: All outputs here.
 - `README.md`: This file.
 
+[Get the latest release](https://github.com/AIntelligent/C-Softmax/releases/latest)
+
 ## Installation
 ```bash
 pip install numpy matplotlib
 python c_softmax_numpy_final.py
-
-## Get The Latest Version
-[The latest release](C-Softmax/releases/tag/experimental)
