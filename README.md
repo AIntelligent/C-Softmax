@@ -15,6 +15,9 @@ This folder contains experimental verification of all theorems defined for the c
 [Get the latest release](https://github.com/AIntelligent/C-Softmax/releases/latest)
 
 ## Installation
+
+If you don't have the Python interpreter, get the latest Python version from [here](https://www.python.org/downloads/).
+
 ```bash
 pip install numpy matplotlib
 python c_softmax_numpy_final.py
