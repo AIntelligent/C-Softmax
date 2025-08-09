@@ -10,7 +10,6 @@ This folder contains experimental verification of all theorems defined for the c
 - `fig2_alpha_learning.png`: Alpha learning graphical report.
 - `fig3_entropy_temp.png`: Entropy-Temperature relation graphical report.
 - `full_outputs.txt`: All outputs here.
-- `README.md`: This file.
 
 [Get the latest release](https://github.com/AIntelligent/C-Softmax/releases/latest)
 
