@@ -20,7 +20,7 @@ This folder contains the experimental validation of all theorems for the context
   - `C_Softmax_HBB_Notebook_v2_en.ipynb`: Interactive Jupyter Notebook (compatible with Google Colab).
   - `blosum62.txt`:
 
-[Get the latest release](https://github.com/AIntelligent/C-Softmax/releases/latest)
+[![DOI](https://zenodo.org/badge/1034360450.svg)](https://doi.org/10.5281/zenodo.16881842)
 
 ## Installation
 
