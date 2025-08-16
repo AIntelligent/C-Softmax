@@ -11,12 +11,12 @@ methods from both theoretical and practical perspectives.
 
 | Method                  | Differentiability | Sparse Output | Context Integration | Temperature / Entropy Control | Calibration | Reparametrization | Notes |
 |--------------------------|-------------------|---------------|----------------------|-------------------------------|-------------|-------------------|-------|
-| **Softmax (classical)**  | Infinite (C∞)     | No            | No                   | None (unless τ added)         | Weak        | No                | Basic probability projection; smooth gradient. |
-| **C-Softmax (this work)** | Infinite (C∞)    | No †          | **Yes** (α, ω, β)    | **Yes** (via τ)               | Strong (context-dependent) | No | Context-aware probability projection with external priorities. |
+| **Softmax (classical)**  | Infinite ($$C^\infty$$)     | No            | No                   | None (unless $$\tau$$ added)         | Weak        | No                | Basic probability projection; smooth gradient. |
+| **C-Softmax (this work)** | Infinite ($$C^\infty$$)    | No $$\dagger$$          | **Yes** ($$\vec{\alpha}, \vec{\omega}, \vec{\beta}$$)    | **Yes** (via $$\tau$$)               | Strong (context-dependent) | No | Context-aware probability projection with external priorities. |
 | **Sparsemax** (Martins & Astudillo, 2016) | Piecewise differentiable | **Yes** | No | None | Mixed | No | Euclidean projection onto simplex; interpretability advantage. |
-| **Gumbel-Softmax / Concrete** (Jang et al., 2017; Maddison et al., 2017) | Infinite (C∞, relaxation) | No | No | **Yes** (via τ) | Indirect | **Yes** | Enables differentiable sampling of discrete variables (VAE, RL). |
-| **Temperature Scaling** (Guo et al., 2017) | Infinite (C∞) | No | No | **Yes** (post-hoc τ) | Strong (post-hoc) | No | Post-hoc calibration; does not change the decision rule. |
-| **Label Smoothing** (Szegedy et al., 2016) | Infinite (C∞) | No | No | Indirect (target distribution smoothing) | Typically improves | No | Reduces overconfidence; mixes targets. |
+| **Gumbel-Softmax / Concrete** (Jang et al., 2017; Maddison et al., 2017) | Infinite ($$C^\infty$$, relaxation) | No | No | **Yes** (via $$\tau$$) | Indirect | **Yes** | Enables differentiable sampling of discrete variables (VAE, RL). |
+| **Temperature Scaling** (Guo et al., 2017) | Infinite ($$C^\infty$$) | No | No | **Yes** (post-hoc $$\tau$$) | Strong (post-hoc) | No | Post-hoc calibration; does not change the decision rule. |
+| **Label Smoothing** (Szegedy et al., 2016) | Infinite ($$C^\infty$$) | No | No | Indirect (target distribution smoothing) | Typically improves | No | Reduces overconfidence; mixes targets. |
 
 ---
 † C-Softmax provides full support; however, extreme values of context parameters (e.g., α)  
