@@ -4,6 +4,26 @@ This folder contains the experimental validation of all theorems for the context
 
 > Kartal, Hakan Emre [hek@nula.com.tr](hek@nula.com.tr) [0000-0002-3952-7235](https://orcid.org/0000-0002-3952-7235)
 
+## 📊 Comparative Summary Table: C-Softmax vs. Other Methods
+
+The following table provides a comparative overview of C-Softmax with other Softmax-based
+methods from both theoretical and practical perspectives.
+
+| Method                  | Differentiability | Sparse Output | Context Integration | Temperature / Entropy Control | Calibration | Reparametrization | Notes |
+|--------------------------|-------------------|---------------|----------------------|-------------------------------|-------------|-------------------|-------|
+| **Softmax (classical)**  | Infinite (C∞)     | No            | No                   | None (unless τ added)         | Weak        | No                | Basic probability projection; smooth gradient. |
+| **C-Softmax (this work)** | Infinite (C∞)    | No †          | **Yes** (α, ω, β)    | **Yes** (via τ)               | Strong (context-dependent) | No | Context-aware probability projection with external priorities. |
+| **Sparsemax** (Martins & Astudillo, 2016) | Piecewise differentiable | **Yes** | No | None | Mixed | No | Euclidean projection onto simplex; interpretability advantage. |
+| **Gumbel-Softmax / Concrete** (Jang et al., 2017; Maddison et al., 2017) | Infinite (C∞, relaxation) | No | No | **Yes** (via τ) | Indirect | **Yes** | Enables differentiable sampling of discrete variables (VAE, RL). |
+| **Temperature Scaling** (Guo et al., 2017) | Infinite (C∞) | No | No | **Yes** (post-hoc τ) | Strong (post-hoc) | No | Post-hoc calibration; does not change the decision rule. |
+| **Label Smoothing** (Szegedy et al., 2016) | Infinite (C∞) | No | No | Indirect (target distribution smoothing) | Typically improves | No | Reduces overconfidence; mixes targets. |
+
+---
+† C-Softmax provides full support; however, extreme values of context parameters (e.g., α)  
+may lead to near-zero probabilities, resulting in effectively sparse distributions.  
+
+📌 Notably, $$\frac{\partial L}{\partial \ln \alpha_i} = p_i - y_i$$ allows context parameters to be directly optimized within gradient-based learning frameworks.
+
 ## Files
 - `c_softmax_experiments_2025_v1.zip`:
 - `c_softmax_numpy_final.ipynb`: Interactive Jupyter Notebook (compatible with Google Colab).
