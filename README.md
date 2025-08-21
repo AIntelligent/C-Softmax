@@ -25,6 +25,7 @@ may lead to near-zero probabilities, resulting in effectively sparse distributio
 📌 Notably, $$\frac{\partial L}{\partial \ln \alpha_i} = p_i - y_i$$ allows context parameters to be directly optimized within gradient-based learning frameworks.
 
 ## Files
+- `CSoftmaxTest.dpr`: It is the Pascal language implementation of the C-Softmax function in the article.
 - `c_softmax_experiments_2025_v1.zip`:
 - `c_softmax_numpy_final.ipynb`: Interactive Jupyter Notebook (compatible with Google Colab).
 - `c_softmax_numpy_final_ipynb - Colab.pdf`: Results and visualizations of all tests.
