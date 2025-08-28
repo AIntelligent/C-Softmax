@@ -51,3 +51,6 @@ If you don't have the Python interpreter, get the latest Python version from [he
 ```bash
 pip install numpy matplotlib 
 python c_softmax_numpy_final.py
+```
+
+This work was first submitted to TechRxiv on August 18, 2025 (Case #250826-000675, #250826-000685, #250827-000874, and #250828-000843)
