@@ -54,4 +54,4 @@ pip install numpy matplotlib
 python c_softmax_numpy_final.py
 ```
 
-This work was first submitted to TechRxiv on August 18, 2025 (Case #250826-000675, #250826-000685, #250827-000874, and #250828-000843)
+This work was first submitted on *August 18, 2025* (TechRxiv Cases: #250826-000675, #250826-000685, #250827-000874, and #250828-000843), and proof-of-concept works were previously made publicly available via Zenodo (DOI: 10.5281/zenodo.16881842). The official preprint publication date was later *recorded as August 26, 2025, due to a metadata correction*.
