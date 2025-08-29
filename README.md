@@ -3,6 +3,7 @@
 This folder contains the experimental validation of all theorems for the contextual softmax (C-Softmax) operator and its bioinformatics application for *Hemoglobin-β (HBB)*.
 
 > Kartal, Hakan Emre [hek@nula.com.tr](hek@nula.com.tr) [0000-0002-3952-7235](https://orcid.org/0000-0002-3952-7235)
+> **DOI**: [10.36227/techrxiv.175647872.27401306/v1](https://doi.org/10.36227/techrxiv.175647872.27401306/v1)
 
 ## 📊 Comparative Summary Table: C-Softmax vs. Other Methods
 
