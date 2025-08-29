@@ -1,4 +1,4 @@
-# Experimental Materials for "C-Softmax: A Contextual-Softmax Operator Incorporating Row and Column Priorities
+# Experimental Materials for "C-Softmax: A Contextual-Softmax Operator Incorporating Row and Column Priorities"
 
 This folder contains the experimental validation of all theorems for the contextual softmax (C-Softmax) operator and its bioinformatics application for *Hemoglobin-β (HBB)*.
 
